@@ -1,4 +1,4 @@
-# openwrt校园网自动认证脚本
+# 北邮portal openwrt校园网自动认证脚本
 
 ## 使用指南
 
