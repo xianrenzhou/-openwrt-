@@ -18,7 +18,7 @@ opkg install python3
 ```
 
 安装完成后可以命令行输python 测试一下
-
+接着`pip install requests` 安装requests的库
 
 
 安装完成后,把代码上传到op后台，把connect.py中的username 和 password 改成你的学号和上网密码
