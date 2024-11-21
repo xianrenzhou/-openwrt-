@@ -1,6 +1,7 @@
 # 北邮portal openwrt校园网自动认证脚本
 
 ## 使用指南
+重要提示：本脚本在op有梯子环境下可能无法正常使用
 
 op 默认是不带python环境的，因此在中继校园网之前我们需要安装python环境
 
@@ -23,7 +24,7 @@ opkg install python3
 
 ![image-20241120185656031](https://r2img.xianrenzhou.top/pics/2024/11/6867ca445f263f4c8bb0b22a120c7db9.png)
 
-接着 `chmod +x runconnect.sh` 给运行脚本可执行权限
+接着 `chmod +x connect.py` 给运行脚本可执行权限
 
 
 
@@ -31,7 +32,7 @@ opkg install python3
 
 ![image-20241120185852789](https://r2img.xianrenzhou.top/pics/2024/11/74c20639b87f3d9867510485b5449534.png)
 
-添加 `*/5 * * * * ~/cnt.sh`(cnt.sh换成runconnect.sh的路径)
+添加 `*/5 * * * * ~/connect.py > connect_log.txt`(~/connect.py换成connect.py的路径)
 
 然后在启动项中重启cron即可
 
