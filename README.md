@@ -20,7 +20,7 @@ opkg install python3
 安装完成后可以命令行输python 测试一下
 
 
-**接着**
+
 `pip install requests`  安装requests的库
 
 
@@ -28,7 +28,9 @@ opkg install python3
 
 ![image-20241120185656031](https://r2img.xianrenzhou.top/pics/2024/11/6867ca445f263f4c8bb0b22a120c7db9.png)
 
-接着 `chmod +x connect.py` 给运行脚本可执行权限
+ `chmod +x connect.py`
+ 
+ 给运行脚本可执行权限
 
 
 
